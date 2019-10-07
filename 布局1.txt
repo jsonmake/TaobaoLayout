@@ -1,0 +1,38 @@
+<style type="text/css">
+body{
+    font-family:Verdana;
+    font-size: 14px;
+    margin:0;
+    background: #e9e9e9;
+}
+#container{
+    margin:0 auto;
+    width:900px;
+    background: #ffffff;
+    padding:15px;
+}
+#header{
+    height:100px;
+    background: #6c6c6c;
+    margin-bottom: 5px;
+}
+#mainContent{
+    height: 500px;
+    background: #cff;
+    margin-top: 200px;
+}
+</style>
+
+<html>
+<head></head>
+<body>
+<div id = "container">
+    <div id ="header">这是头部</div>
+    <div id ="mainContent">
+        <p>这是身体</p>
+    </div>
+</div>
+</body>
+</html>
+
+打开浏览器去观察可以看到 两个DIV margin是算一起的 (一个是margin-bottom 一个是margin-top)

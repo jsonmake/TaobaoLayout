@@ -1,0 +1,45 @@
+<style type="text/css">
+    body{
+        font-family:Verdana;
+        font-size: 14px;
+        margin:0;
+        background: #e9e9e9;
+    }
+    #container{
+        margin:0 auto;
+        width:900px;
+        background: #ffffff;
+        padding:15px;
+    }
+    #header{
+        height:100px;
+        background: #6c6c6c;
+        margin-bottom: 5px;
+    }
+    #mainContent{
+        height: 500px;
+        background: #cff;
+       margin-bottom:5px;
+    }
+    #footer{
+        height:60px;
+        background:#6cf;
+    }
+    </style>
+    
+    <html>
+    <head></head>
+    <body>
+    <div id = "container">
+        <div id ="header">这是头部</div>
+        <div id ="mainContent">
+            <p>这是身体</p>
+        </div>
+        <div id = "footer">这是尾部</div>
+    </div>
+    
+    </body>
+    </html>
+
+
+典型的三层DIV 模型
